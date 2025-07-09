@@ -111,14 +111,14 @@ git clone https://github.com/AnonimusZ6/CRMX.git
 cd crmx
 
 # 2. Установить зависимости
-cd server && npm install
-cd ../client && npm install
+cd api && npm install
+cd ../frontend && npm install
 
 # 3. Настроить окружение
 cp server/.env.example server/.env
 # Отредактировать .env файл
 
 # 4. Запустить
-cd server && npm start
+cd api && npm start
 # В другом терминале:
-cd client && npm start
+cd frontend && npm start
